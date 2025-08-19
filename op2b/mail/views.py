@@ -51,7 +51,7 @@ class MailFormatterView(ModelViewSet, APIView):
             body=result_text,
             raw_text=serializer.validated_data['text'],
             justified_text=justified_text,
-            caracters_per_line=self.get_object()
+            caracters_per_line=self.get_object().caracters_per_line
         )
 
         return Response(resultado, status=status.HTTP_200_OK)

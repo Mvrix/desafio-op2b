@@ -16,6 +16,8 @@ class MailTextSerializer(serializers.ModelSerializer):
         fields = ['text', 'recipient', 'subject', 'caracters_per_line']
         
 class MailLogSerializer(serializers.ModelSerializer):
+    caracters_per_line = serializers.SerializerMethodField()
+    
     class Meta:
         model = MailLog
         fields = ["id", "recipient", "subject", "body", "raw_text", "justified_text", "sent_at", "date", "caracters_per_line"]

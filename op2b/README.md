@@ -125,29 +125,7 @@ Resposta:
 			"justified_text": "Lorem  ipsum dolor sit amet, consectetur\nadipiscing  elit,  sed do eiusmod tempor\nincididunt  ut  labore  et  dolore magna\naliqua.  Ut  enim  ad minim veniam, quis\nnostrud   exercitation  ullamco  laboris",
 			"sent_at": "2025-08-19T00:46:19.295898Z",
 			"date": "2025-08-19",
-			"caracters_per_line": 1
-		},
-		{
-			"id": 2,
-			"recipient": "oi_mario@live.com",
-			"subject": "Email enviado",
-			"body": "Lorem ipsum dolor sit amet, consectetur\nadipiscing elit, sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua. Ut enim ad minim veniam, quis\nnostrud exercitation ullamco laboris",
-			"raw_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-			"justified_text": "Lorem  ipsum dolor sit amet, consectetur\nadipiscing  elit,  sed do eiusmod tempor\nincididunt  ut  labore  et  dolore magna\naliqua.  Ut  enim  ad minim veniam, quis\nnostrud   exercitation  ullamco  laboris",
-			"sent_at": "2025-08-19T00:47:47.968196Z",
-			"date": "2025-08-19",
-			"caracters_per_line": 1
-		},
-		{
-			"id": 3,
-			"recipient": "oi_mario@live.com",
-			"subject": "Email enviado",
-			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\ndo eiusmod tempor incididunt ut labore et dolore magna\naliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-			"raw_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-			"justified_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed\ndo  eiusmod  tempor  incididunt  ut  labore  et dolore magna\naliqua.  Ut  enim ad minim veniam, quis nostrud exercitation",
-			"sent_at": "2025-08-19T00:49:55.523515Z",
-			"date": "2025-08-19",
-			"caracters_per_line": 1
+			"caracters_per_line": 40
 		}
 	]
 }

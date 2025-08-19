@@ -105,7 +105,7 @@ Resposta:
 
 Endpoint:
 
-    PATCH /mail/log/
+    GET api/mail/log/
 
 
 Resposta:

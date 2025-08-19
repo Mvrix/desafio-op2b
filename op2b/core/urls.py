@@ -17,9 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from mail.views import MailFormatter
+from mail import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/mail/', MailFormatter.as_view(), name='mail-formatter'),
+    path('api/mail/', views.MailFormatterView.as_view({'post': 'create'}),name='mail-formatter', ),
+    path('api/mail/alter/', views.MailFormatterView.as_view({"patch": "partial_update"}), name='mail-formatter-alt'),
+    path('api/mail/log/', views.MailLogView.as_view({"get": "list"}), name='mail-formatter-alt'),
+    
 ]
